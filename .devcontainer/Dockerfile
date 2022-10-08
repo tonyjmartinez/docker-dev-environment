@@ -12,3 +12,10 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 
 # [Optional] Uncomment if you want to install more global node packages
 # RUN su node -c "npm install -g <your-package-list -here>"
+RUN su node -c "npm i -g netlify-cli"
+
+RUN echo $' \n\
+alias gb="git branch" \n\
+alias gco="git checkout" \n\
+alias gs="git status" \n\
+' >> "/home/node/.bashrc"
