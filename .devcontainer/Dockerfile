@@ -14,6 +14,7 @@ FROM mcr.microsoft.com/vscode/devcontainers/typescript-node:0-${VARIANT}
 # RUN su node -c "npm install -g <your-package-list -here>"
 RUN su node -c "npm i -g netlify-cli"
 
+
 RUN echo $' \n\
 alias gb="git branch" \n\
 alias gco="git checkout" \n\
