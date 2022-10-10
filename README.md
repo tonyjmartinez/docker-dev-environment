@@ -12,6 +12,10 @@
 ### Netlify setup
 - `netlify login`
 - Should take you to login to netlify
-### Deploy
+- `netlify init` should connect netlify to your repo
+
+### First Deploy
 - `netlify deploy`
 - Go through prompts and choose what makes sense
+- If it all looks good, check the preview url
+- If that looks good, deploy to prod with `netlify deploy --prod`
