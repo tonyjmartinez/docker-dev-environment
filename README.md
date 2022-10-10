@@ -9,5 +9,9 @@
 - yarn (install dependencies)
 - yarn dev (run local dev server)
 
+### Netlify setup
+- `netlify login`
+- Should take you to login to netlify
 ### Deploy
-- netlify deploy
+- `netlify deploy`
+- Go through prompts and choose what makes sense
